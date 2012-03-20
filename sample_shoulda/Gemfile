@@ -34,7 +34,7 @@ gem 'jquery-rails'
 
 group :test do
   gem 'shoulda-matchers'
-  gem 'faster_shoulda', '2.11.4'
+  gem 'faster_shoulda'
   gem 'turn', '~> 0.8.3', :require => false
 end
 

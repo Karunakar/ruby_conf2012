@@ -22,4 +22,20 @@ class QuizTest < ActiveSupport::TestCase
   end
 
 
+  fast_context "fast context" do
+    setup do
+      puts "calling setup"
+    end
+
+    should "first macro" do
+      puts "first macro"
+    end
+
+    should "second macro" do
+
+
+      puts "second macro"
+end
+end
+
 end
